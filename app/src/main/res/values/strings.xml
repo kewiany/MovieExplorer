@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">MovieExplorer</string>
+    <string name="spoken_languages">Spoken languages</string>
+    <string name="no_languages">No languages</string>
+    <string name="close">Close</string>
+    <string name="no_overview">No overview</string>
+    <string name="unfavorite">Unfavorite</string>
+    <string name="favorite">Favorite</string>
+    <string name="release">Release: %1$s</string>
+    <string name="languages">Languages</string>
+    <string name="retry">Retry</string>
+    <string name="search_movies">Search movies</string>
+    <string name="clear">Clear</string>
+    <string name="tmdb_movies">TMDB Movies</string>
+    <string name="show_all">Show all</string>
+    <string name="only_favourites">Only favourites</string>
+    <string name="search">Search</string>
+    <string name="back">Back</string>
+</resources>
