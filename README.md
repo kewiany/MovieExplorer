@@ -4,6 +4,8 @@
 ![Kotlin](https://img.shields.io/badge/kotlin-%237F52FF.svg?style=for-the-badge&logo=kotlin&logoColor=white)
 ![Jetpack Compose](https://img.shields.io/badge/Jetpack%20Compose-4285F4?style=for-the-badge&logo=jetpackcompose&logoColor=white)
 ![TMDB](https://img.shields.io/badge/TMDB-01B4E4?style=for-the-badge&logo=themoviedatabase&logoColor=white)
+![codecov](https://codecov.io/gh/kewiany/MovieExplorer/branch/main/graph/badge.svg)
+![Coverage](https://img.shields.io/badge/Coverage-31%25-orange?style=flat&logo=kotlin&logoColor=white)
 
 ## Table of Contents
 
@@ -22,6 +24,7 @@
 - [Requirements](#requirements)
 - [Installation and Setup](#installation-and-setup)
 - [Testing](#testing)
+- [Code Coverage](#code-coverage)
 - [API Configuration](#api-configuration)
 
 ## Project Description
@@ -82,7 +85,7 @@
 
 ### 💾 Offline Support
 - Persistent storage of movie data in Room database
-- Offline access to favorites and search history
+- Offline access to favorite movies and search history
 - Image caching via Coil
 
 ## Project Structure
@@ -132,6 +135,28 @@ export JAVA_HOME=$(/usr/libexec/java_home -v 17)
 
 ![Testing](https://img.shields.io/badge/Testing-JUnit-green?style=flat&logo=junit5&logoColor=white)
 ![Mocking](https://img.shields.io/badge/Mocking-MockK-blue?style=flat&logo=kotlin&logoColor=white)
+
+## Code Coverage
+
+[![codecov](https://codecov.io/gh/kewiany/MovieExplorer/branch/main/graph/badge.svg)](https://codecov.io/gh/kewiany/MovieExplorer)
+
+### Coverage Report
+- **Overall Coverage**: 31% (Line Coverage)
+- **Instruction Coverage**: 31%
+- **Branch Coverage**: 12%
+- **Method Coverage**: 36%
+- **Class Coverage**: 36%
+
+### Generate Local Coverage Report
+```bash
+./gradlew jacocoTestReport
+```
+
+### View Coverage Report
+Open `app/build/reports/jacoco/jacocoTestReport/index.html` in your browser.
+
+### Coverage Details
+Click the Codecov badge above to view detailed coverage reports, line-by-line coverage, and coverage trends.
 
 ## API Configuration
 
