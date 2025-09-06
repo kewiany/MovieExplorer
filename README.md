@@ -129,4 +129,4 @@ TMDB_API_KEY=your_api_key_here
 
 ---
 
-*This project demonstrates skills in modern Android mobile application development from August 2025.*
+*This project demonstrates my skills in modern Android mobile application development from August 2025. With 5+ years of experience in mobile application programming, you can learn more about my background on [LinkedIn](https://www.linkedin.com/in/kewiany/).*
