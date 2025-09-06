@@ -4,7 +4,8 @@
 ![Kotlin](https://img.shields.io/badge/kotlin-%237F52FF.svg?style=for-the-badge&logo=kotlin&logoColor=white)
 ![Jetpack Compose](https://img.shields.io/badge/Jetpack%20Compose-4285F4?style=for-the-badge&logo=jetpackcompose&logoColor=white)
 ![TMDB](https://img.shields.io/badge/TMDB-01B4E4?style=for-the-badge&logo=themoviedatabase&logoColor=white)
-![codecov](https://codecov.io/gh/kewiany/MovieExplorer/branch/main/graph/badge.svg)
+
+[![codecov](https://codecov.io/gh/kewiany/MovieExplorer/branch/master/graph/badge.svg)](https://codecov.io/gh/kewiany/MovieExplorer)
 ![Coverage](https://img.shields.io/badge/Coverage-31%25-orange?style=flat&logo=kotlin&logoColor=white)
 
 ## Table of Contents
@@ -138,14 +139,14 @@ export JAVA_HOME=$(/usr/libexec/java_home -v 17)
 
 ## Code Coverage
 
-[![codecov](https://codecov.io/gh/kewiany/MovieExplorer/branch/main/graph/badge.svg)](https://codecov.io/gh/kewiany/MovieExplorer)
+[![codecov](https://codecov.io/gh/kewiany/MovieExplorer/branch/master/graph/badge.svg)](https://codecov.io/gh/kewiany/MovieExplorer)
 
 ### Coverage Report
-- **Overall Coverage**: 31% (Line Coverage)
-- **Instruction Coverage**: 31%
-- **Branch Coverage**: 12%
-- **Method Coverage**: 36%
-- **Class Coverage**: 36%
+- **Overall Coverage**: 37% (Line Coverage)
+- **Instruction Coverage**: 37%
+- **Branch Coverage**: 19%
+- **Method Coverage**: 41%
+- **Class Coverage**: 46%
 
 ### Generate Local Coverage Report
 ```bash
