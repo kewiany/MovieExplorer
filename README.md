@@ -5,9 +5,28 @@
 ![Jetpack Compose](https://img.shields.io/badge/Jetpack%20Compose-4285F4?style=for-the-badge&logo=jetpackcompose&logoColor=white)
 ![TMDB](https://img.shields.io/badge/TMDB-01B4E4?style=for-the-badge&logo=themoviedatabase&logoColor=white)
 
+## Table of Contents
+
+- [Project Description](#project-description)
+- [Features](#features)
+  - [Popular Movies Screen](#-popular-movies-screen)
+  - [Search Screen](#-search-screen)
+  - [Movie Details Screen](#-movie-details-screen)
+  - [Favorites Management](#-favorites-management)
+- [Technical Architecture](#technical-architecture)
+  - [Clean Architecture](#️-clean-architecture)
+  - [Technologies](#️-technologies)
+  - [API Integration](#-api-integration)
+  - [Offline Support](#-offline-support)
+- [Project Structure](#project-structure)
+- [Requirements](#requirements)
+- [Installation and Setup](#installation-and-setup)
+- [Testing](#testing)
+- [API Configuration](#api-configuration)
+
 ## Project Description
 
-**Movie Explorer** is a native Android application built with Kotlin using Jetpack Compose. The app was created as a recruitment task and enables users to browse popular movies, search for films, and manage their favorite titles.
+**Movie Explorer** is a native Android application built with Kotlin using Jetpack Compose. The app was created as a recruitment task and enables users to browse popular movies, search for movies, and manage their favorite movies.
 
 ## Features
 
@@ -19,7 +38,7 @@
 
 ### 🔍 Search Screen  
 - Automatic search while typing
-- Display results with title and poster
+- Display results with movie title and poster
 - Search history saved locally
 
 ### 📱 Movie Details Screen
@@ -30,8 +49,8 @@
 
 ### ❤️ Favorites Management
 - Mark movies as favorites
-- Filter list to show only favorites
-- Persistent storage of favorites between app launches
+- Filter list to show only favorite movies
+- Persistent storage of favorite movies between app launches
 
 ## Technical Architecture
 
